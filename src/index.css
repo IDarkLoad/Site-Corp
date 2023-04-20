@@ -96,11 +96,52 @@ nav{
 
 .head-content h1{
   font-size: 40px;
-  color: #3d3d3d;
+  color: #1b1b1b;
 }
 
 .head-content h4{
   font-size: 18px;
   color: #3d3d3d;
   text-align: center;
+}
+
+.box-cards{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5% 15%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  width: 200px;
+  height: 390px;
+}
+
+.cards img {
+  width: 90%;
+}
+
+.cards h1{
+  font-size: 22px;
+  font-weight: 700;
+  color: #1b1b1b;
+}
+
+.cards h4{
+  font-size: 16px;
+  font-weight: 500;
+  color: #1b1b1b;
+}
+
+.cards button{
+  width: 70%;
+  font-size: 16px;
+}
+
+.bloco img{
+  width: 100%;
 }

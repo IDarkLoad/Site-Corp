@@ -1,6 +1,8 @@
 import Logo from '../src/assets/logo.png';
 import Brand from '../src/assets/brand.png';
 import Team from '../src/assets/team.jpg';
+import Head from '../src/assets/head.png';
+import Bloco from '../src/assets/bloco.png';
 
 function App() {
   return (
@@ -39,9 +41,38 @@ function App() {
       <div className='head-content'>
         <h1>Como mesclar tecnologia e trabalho?</h1>
         <h4>"A tecnologia aproxima pessoas e empresas,
-           mas é preciso usá-la de forma consciente e eficaz para 
-           impulsionar o crescimento das empresas e melhorar as relações comerciais.
-            Bem utilizada, a tecnologia se torna uma parceria frutífera."</h4>
+          mas é preciso usá-la de forma consciente e eficaz para
+          impulsionar o crescimento das empresas e melhorar as relações comerciais.
+          Bem utilizada, a tecnologia se torna uma parceria frutífera."</h4>
+      </div>
+      <div className='box-cards'>
+        <div className='cards'>
+          <img src={Head} />
+          <h1>Cultura de disrupção</h1>
+          <h4>Com agilidade</h4>
+          <button>Saiba mais</button>
+        </div>
+        <div className='cards'>
+          <img src={Head} />
+          <h1>Intraempreende-dorismo</h1>
+          <h4>Focando em talentos</h4>
+          <button>Saiba mais</button>
+        </div>
+        <div className='cards'>
+          <img src={Head} />
+          <h1>Programa de Networking</h1>
+          <h4>Criando soluções</h4>
+          <button>Saiba mais</button>
+        </div>
+        <div className='cards'>
+          <img src={Head} />
+          <h1>Open Innovation</h1>
+          <h4>Buscando soluções fora da empresa</h4>
+          <button>Saiba mais</button>
+        </div>
+      </div>
+      <div className='bloco'>
+        <img src={Bloco} />
       </div>
     </div>
   );
