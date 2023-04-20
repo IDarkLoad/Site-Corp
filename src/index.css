@@ -1,13 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;500;600;700&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Anuphan', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  background-color: #044092;
+  color:#fff;
+  font-size: 18px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border:none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav{
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navegation {
+  max-width: 100%;
+  background-color: #fff;
+  display: flex;
+  height: 65px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.navegation a {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+  padding: 15px;
+}
+
+.body{
+  display:flex;
+  align-items: center;
+  padding: 5% 15%;
+}
+
+.body img{
+  width:100%;
+}
+
+.body h1{
+  display: flex;
+  width: 90%;
+  font-size: 46px;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+
+.body h4{
+  font-size: 30px;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+
+.text{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px;
+}
+
+.body h5{
+  font-size: 18px;
+  font-weight: 400;
+  color: #3d3d3d;
+}
+
+.body button{
+  margin: 0;
+}
+
+.head-content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 15%;
+}
+
+.head-content h1{
+  font-size: 40px;
+  color: #3d3d3d;
+}
+
+.head-content h4{
+  font-size: 18px;
+  color: #3d3d3d;
+  text-align: center;
 }
